@@ -1,0 +1,55 @@
+div.intro, div.info{
+    width: 80%;
+    background-color: #0b161f;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+div.info{
+    margin-top: 10px;
+}
+
+.portEx{
+    height: 350px;
+    margin: 40px 0px 20px 140px;
+}
+
+.groupIcon{
+    margin-right: 140px;
+}
+
+.imgEx{
+    height: 350px;
+    margin: 20px 70px 20px 0;
+}
+
+.firstPhrase{
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.secondPhrase{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.button-content {
+    padding: 9px 25px;
+    background-color: #348C80;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;    
+}
+
+.button-content:hover{
+    background-color: #287067;
+}
