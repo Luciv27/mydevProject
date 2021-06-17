@@ -1,0 +1,141 @@
+.homeindex{
+    padding: 70px 30px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+    background-color: #0b161f;
+}
+
+.quick-access{
+    background-color: #0b304f;
+    width: 30%;
+}
+.quick-access h3{
+    padding-left: 20px;
+}
+
+.shortcuts{
+    list-style: none;
+    padding: 0;
+}
+
+.shortcuts li a{
+    text-decoration: none;
+    list-style: none;
+}
+.shortcuts li{
+    padding: 20px 0 20px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.shortcuts li:hover{
+    background-color: #1764a3;
+}
+
+
+h3, a, p{
+    color: #FFFFFF;
+}
+
+h3{
+    padding: 15px 0;
+    background-color: #0b161f;
+}
+
+.posts-column{
+    width: 100%;
+    background-color: #0b304f;
+}
+
+.posts-column h3{
+    text-align: center;
+}
+
+.posts-column form input{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #68bbff;
+}
+
+.posts-column form button{
+    padding: 9px 25px;
+    background-color: #68bbff;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    display: block;
+    margin: 10px auto 0 ;
+}
+
+.posts-column form button:hover{
+    background-color: #4183ba;
+}
+
+.content-posts-column, .posts-column h3{
+    padding-left: 20px;
+}
+
+.profile-mini img{
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+
+.post-example {
+    width: 90%;
+    display: block;
+    margin: 10px auto 20px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #11406a;
+}
+
+.profile-mini p{
+    display: inline-block;
+    padding: 13px 0 0 20px;
+    position: absolute;
+    margin: 0;
+}
+
+.reply-post{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    margin: 20px auto 0;
+}
+
+.reply-post p{
+    display: inline-block;
+    padding-left: 13px;
+    margin: 0;
+}
+
+.post img{
+    height: 480px;
+}
+
+.reply-post img{
+    height: 20px;
+}
+
+.new-users .profile-mini{
+    margin: 20px 0;
+}
+
+.new-users{
+    width: 30%;
+    background-color: #0b304f;
+}
+
+
+

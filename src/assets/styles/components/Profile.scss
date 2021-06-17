@@ -1,0 +1,45 @@
+.profile{
+    display: block;
+    margin: 70px auto 0;
+    background-color: #0b161f;
+    width: 90%;
+    padding: 30px;
+}
+
+h1,h2{
+    color: #FFFFFF;
+}
+
+
+
+.profile h1{
+    display: block;
+    text-align: center;
+}
+
+.profile-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-profile > img{
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+
+.profile-info .info-profile p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.social-media{
+    display: block;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.social-media img{
+    height: 50px;
+    padding-left: 30px;
+}

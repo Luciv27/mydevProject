@@ -5,11 +5,12 @@
     background-color: #10202D;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 .icon {
     margin-left: 30px;
-    height: 85%;
+    height: 65px;
 }
 
 .menu-nav{
@@ -31,6 +32,10 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+.loginbutton a, .homebutton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}   
 
 .menu-nav ul li:hover{
     color: #5899ce;

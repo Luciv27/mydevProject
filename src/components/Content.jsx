@@ -4,6 +4,9 @@ import portEx from '../assets/static/port.png';
 import iconEx from '../assets/static/bl.png';
 import '../assets/styles/components/Content.scss';
 
+
+
+
 const Container = () => (
     <section className="content">        
         <div className="intro">
