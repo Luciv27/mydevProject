@@ -9,7 +9,7 @@ const Posts = () => {
             <h3>Publicaciones</h3>
             <div className="content-posts-column">
                 <form>
-                    <input type="text" placeholder="Escribe algo..." />
+                    <textarea type="text" placeholder="Escribe algo..." />
                     <button>Publicar</button>
                 </form>
                 <div className="post-example">

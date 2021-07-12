@@ -53,8 +53,8 @@ h3{
     text-align: center;
 }
 
-.posts-column form input{
-    width: 70%;
+.posts-column form textarea{
+    width: 60%;
     display: block;
     margin: 0 auto;
     height: 70px;
@@ -92,7 +92,7 @@ h3{
 }
 
 .post-example {
-    width: 90%;
+    width: 60%;
     display: block;
     margin: 10px auto 20px;
     border-radius: 15px;
@@ -121,7 +121,8 @@ h3{
 }
 
 .post img{
-    height: 480px;
+    display: block;
+    margin: 0 auto;
 }
 
 .reply-post img{

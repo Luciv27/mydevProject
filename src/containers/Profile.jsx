@@ -35,12 +35,52 @@ const Profile = () => (
 
             </div>
         </div>
-        <div className="languages">
-            <div className="language-items">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </div>
+        <div className="projects">
+            <h1>Mis proyectos</h1>
+            <ul className="create-project">
+                <li className="project-cr">
+                    <h2>Sube tu proyecto</h2>
+                    <form>
+                        <div>
+                            <label>Nombre del proyecto</label>
+                            <input name="project-name" type="text" placeholder="Escribe un nombre" />
+                            <label>Link del proyecto</label>
+                            <input name="project-link" type="text" placeholder="Enlace directo a tu proyecto"/>
+                            <label>Imagen del proyecto</label>
+                            <input className="file-field" name="project-img" type="file" placeholder="Enlace directo a tu proyecto"/>
+                        </div>
+                        <div className="desc-field">
+                            <label>Descripcion del proyecto</label>
+                            <textarea name="project-description" placeholder="Descripcion del proyecto" cols="30" rows="10"></textarea>
+                            <button>Subir proyecto</button>
+                        </div>
+                        
+                    </form>
+                </li>
+            </ul>
+            
+            <ul className="project-list">
+                <h2>Proyectos subidos</h2>
+                <li className="project">
+                    <div>
+                        <img src={profilePic} alt="" />
+                        <div>
+                            <h2>Nombre nombre</h2>
+                            <p className="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nunc odio, 
+                            elementum eu ipsum ac, condimentum placerat libero. Aliquam ac posuere dolor, 
+                            nec tincidunt massa. In quis congue eros, et aliquam velit. Suspendisse vitae 
+                            odio in nibh venenatis tincidunt. In egestas laoreet velit sed placerat. Aenean 
+                            pharetra ac velit eget fermentum. Proin congue elementum nisl, vulputate consequat 
+                            felis accumsan porttitor. Fusce sed nulla pretium, tincidunt ex at, lacinia mauris. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales ornare tristique. 
+                            In metus ligula, iaculis et aliquet ac, euismod sed sapien. Pellentesque eu diam justo.
+                            Morbi in tincidunt tortor, a mollis nibh.</p>
+                            <p className="project-link">Link del proyecto</p>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 );

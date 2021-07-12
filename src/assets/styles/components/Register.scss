@@ -1,0 +1,54 @@
+.register{
+    display: block;
+    margin: 120px auto 20px;
+    border-radius: 30px;
+    width: 35%;
+    padding: 20px;
+    background-color: #0b161f;
+}
+
+.register-form label, .register-form input{
+    display: block;
+}
+
+.register-form label{
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.register-form input{
+    padding: 9px 20px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#fileavatar{
+    color: #FFFFFF;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit;
+}
+
+.register h2{
+    text-align: center;
+}
+
+.register button{
+    padding: 9px 25px;
+    background-color: #348C80;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    margin: 10px auto;
+    display: block;
+}
+
+.login-form{
+    margin: 120px auto;
+}

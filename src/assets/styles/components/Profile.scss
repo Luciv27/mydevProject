@@ -32,6 +32,11 @@ h1,h2{
     text-align: center;
 }
 
+.profile-info .info-user p{
+    line-height : 25px;
+    width: 80%;
+}
+
 .social-media{
     display: block;
     margin: 0 auto;
@@ -42,4 +47,91 @@ h1,h2{
 .social-media img{
     height: 50px;
     padding-left: 30px;
+}
+
+li.project-cr form {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #336792;
+    border-radius: 15px;
+    padding: 30px;
+    width: 95%;
+}
+
+li.project-cr form label{
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+li.project-cr form input, li.project-cr form textarea{
+    padding: 9px 20px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px ;
+}
+
+form .desc-field{
+    margin-left: 150px;
+}
+
+form .file-field{
+    padding: 0px !important;
+    border-radius: 0 !important;
+}
+
+.desc-field button{
+    padding: 9px 25px;
+    background-color: #348C80;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: 1px solid #0b161f;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    margin: 10px auto;
+    display: block;
+}
+
+.desc-field button:hover{
+    background-color: #25635b;
+}
+
+li.project {
+    display: flex;
+    justify-content: space-between;
+    background-color: #336792;
+    border-radius: 15px;
+    padding: 30px;
+    width: 95%;
+}
+
+li.project > div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+li.project img{
+    height: 250px;
+}
+
+li.project h2, li.project p{
+    display: inline-block;
+}
+
+li.project h2{
+    padding: 0 0 0 16px;
+    margin: 0;
+}
+
+li.project p.project-desc{
+    padding: 0 0 0 16px;
+    line-height: 25px;
+}
+
+li.project p.project-link{
+    padding: 0 0 0 16px;
 }

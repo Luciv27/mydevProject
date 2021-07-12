@@ -10,12 +10,16 @@ const Header = () => {
             <Link to="/">
                 <img src={iconName} className="icon"/> 
             </Link>
+            <form>
+                <input type="text" placeholder="Buscar..." />
+                <Link to="/search"><button>Buscar</button></Link> 
+            </form>
             <div className="menu-nav">
                 <ul>
-                    <input type="text" placeholder="Buscar..." />    
+                    
                     <li className="homebutton"><Link to="/index">Inicio</Link></li>
-                    <li className="loginbutton">Iniciar sesión</li>
-                    <button>Registrate</button>
+                    <Link to="/login"><li className="loginbutton">Iniciar sesión</li></Link>
+                    <Link to="/register"><button>Registrate</button></Link>
                 </ul>
             </div>
         </nav>

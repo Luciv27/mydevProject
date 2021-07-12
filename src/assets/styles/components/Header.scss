@@ -17,13 +17,11 @@
     margin-right: 30px;
 }
 .menu-nav ul{
-    display:block;
     color: #FFFFFF;
     list-style: none;
     margin: 0 0 0 -16px;
     padding: 0;
     text-align: right;
-    
 }
 
 .menu-nav ul li{
@@ -41,7 +39,7 @@
     color: #5899ce;
 }
 
-.menu-nav ul button{
+.menu-nav ul button, .nav_principal form button{
     padding: 9px 25px;
     background-color: #348C80;
     color: #FFFFFF;
@@ -53,11 +51,15 @@
     font-size: 17px;
 }
 
+.nav_principal form button{
+    margin-left: 10px;
+}
+
 .menu-nav ul button:hover{
     background-color: #287067;
 }
 
-.menu-nav ul input{
+ .nav_principal form input{
     padding: 9px 25px;
     color: #000000;
     border-radius: 50px;
