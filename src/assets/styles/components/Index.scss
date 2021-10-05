@@ -54,7 +54,7 @@ h3{
 }
 
 .posts-column form textarea{
-    width: 60%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     height: 70px;
@@ -122,6 +122,7 @@ h3{
 
 .post img{
     display: block;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -138,5 +139,15 @@ h3{
     background-color: #0b304f;
 }
 
+.content-posts-column > form{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 30px;
+}
 
+.content-posts-column > form > input{
 
+    margin-top: 10px;
+    color:#FFFFFF;
+}

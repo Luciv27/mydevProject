@@ -34,6 +34,7 @@ h1,h2{
 
 .profile-info .info-user p{
     line-height : 25px;
+    word-break: break-all;
     width: 80%;
 }
 
@@ -107,6 +108,7 @@ li.project {
     border-radius: 15px;
     padding: 30px;
     width: 95%;
+    margin-bottom: 30px;
 }
 
 li.project > div{
@@ -130,8 +132,10 @@ li.project h2{
 li.project p.project-desc{
     padding: 0 0 0 16px;
     line-height: 25px;
+    word-break: break-all;
 }
 
 li.project p.project-link{
     padding: 0 0 0 16px;
+    word-break: break-all;
 }
